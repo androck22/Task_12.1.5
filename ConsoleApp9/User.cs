@@ -6,9 +6,9 @@ namespace ConsoleApp9
 {
     public class User
     {
-        public string Login { get; set; }
-        public string Name { get; set; }
-        public bool IsPremium { get; set; }
+        public string Login { get; private set; }
+        public string Name { get; private set; }
+        public bool IsPremium { get; private set; }
 
         public User(string login, string name, bool isPremium)
         {
